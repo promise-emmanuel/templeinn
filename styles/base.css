@@ -4,7 +4,8 @@ body{
 }
 
 .header{
-    background-color: rgba(0,0,0,0.9);
+    /* background-color: rgba(0,0,0,0.9); 10, 2, 0*/
+    background-color: rgb(20, 10, 0);
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -23,7 +24,8 @@ body{
 }
 
 footer{
-    background-color: rgba(0,0,0,0.9);
+    /* background-color: rgba(0,0,0,0.9); */
+    background-color: rgb(20, 10, 0);
     display: block;
     color: white;
     padding: 5%;
@@ -142,7 +144,7 @@ nav ul li.close a{
 
 /* styling the main page */
 .reserve_details{
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 5%;
     max-width: 75%;
     color:white;
@@ -155,7 +157,7 @@ nav ul li.close a{
 .reserve_details button{
     padding: 5%;
     border-radius: 5%;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(20, 10, 0, 0.7);
 }
 .reserve_details button a{
     text-decoration: none;
@@ -165,6 +167,7 @@ nav ul li.close a{
 }
 .all_weather_container{
     background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 2px 2px white;
     /* height: 350px; */
     width: 95%;
     font-size: .9em;
@@ -194,4 +197,23 @@ nav ul li.close a{
     justify-items: center;
     text-align: center;
 
+}
+
+.temple_select{
+    /* background-color: rgba(0,0,0,0.7); */
+    /* background-image:radial-gradient(rgba(44, 25, 1, 0.9), white); */
+    background: linear-gradient( rgba(44, 25, 1, 0.9), rgba(255,255,255,0.7));
+    color: rgb(2, 14, 44);
+    padding: 1%;
+}
+
+.first_footer ul, .second_footer ul{
+    list-style-type: none;
+    text-align: left;
+    margin-left: -5%;
+}
+
+.footer_form{
+    display: block;
+    /* grid-template-columns: 1fr; */
 }
