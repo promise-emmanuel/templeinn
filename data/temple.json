@@ -1,0 +1,115 @@
+{
+    "temples": [
+    {
+    "id": 1,
+    "name": "Aba Nigeria Temple",
+    "email": "abatemple@thechurchofjesuschrist.org",
+    "phone": "(234) 80-3903-4810",
+    "address": "72-80 Okpu-Umuobo Rd. Aba. Abia State, Nigeria",
+    "image": "../images/aba_nigeria_temple_lds_medium.webp",
+    "services": [
+    "No clothing rental available",
+    "No cafeteria available",
+    "No patron housing available",
+    "Distribution center nearby"
+    ],
+    "history": "The Aba Nigeria Temple was the first temple built in Nigeria, the second built in West Africa, and the third built in Africa. President Gordon B. Hinckley dedicated the Aba Nigeria Temple during a worldwide tour that included visits to Anchorage, Alaska; Vladivostok, Russia; Seoul, South Korea; Taipei, Taiwan; Hong Kong, China; New Delhi, India; Nairobi, Kenya; and finally Aba, Nigeria. His first view of the temple was from a helicopter in a flyover of the site.",
+    "schedule": "All ordinances are available by appointment only. Click the Appointments button below to schedule or modify an appointment.",
+    "closure": [
+    {
+    "year": 2022,
+    "dates": [
+    "Friday, 8 April 2022.",
+    "Saturday, 20 August 2022",
+    "Monday, 5 September 2022 - Monday, 2 January 2023"
+    ]
+    }
+    ],
+    "link": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng"
+    },
+    {
+    "id": 2,
+    "name": "Accra Ghana Temple",
+    "email": "accratemple@thechurchofjesuschrist.org",
+    "phone": "(233) 302-650-123",
+    "address": "57 Independence Ave, Cantonments, Accra, Ghana,",
+    "image": "https://assets.ldscdn.org/6e/59/6e59c0792ef68e7d587dfd19a7e087b7c42d11f0/accra_ghana_temple_lds.jpeg",
+    "services": [
+    "No clothing rental available",
+    "No cafeteria available",
+    "Patron housing available",
+    "Distribution center nearby"
+    ],
+    "history": "The announcement of the Accra Ghana Temple by President Gordon B. Hinckley came after he had challenged members to make a special effort to fellowship new converts to the Church. \"Put your arms around them, make them feel at home. Teach them the doctrines of the kingdom. Befriend them and help them in every way possible,\" he said. \"I make you a promise that if you will do that you will be blessed with a temple in your midst.",
+    "schedule": "All ordinances are available by appointment only. Click the Appointments button below to schedule or modify an appointment.",
+    "closure": [
+    {
+    "year": 2022,
+    "dates": [
+    "Monday, 21 February 2022 - Monday, 23 May 2022",
+    "Saturday, 20 August 2022",
+    "Tuesday, 13 September 2022 - Tuesday, 27 September 2022",
+    "Sunday, 25 December 2022 - Monday, 26 December 2022"
+    ]
+    }
+    ],
+    "link": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng"
+    },
+    {
+    "id": 3,
+    "name": "Johannesburg Temple",
+    "email": "johannesburgtemple@thechurchofjesuschrist.org",
+    "phone": "(27) 11-645-1540",
+    "address": "7 Jubilee Rd Parktown Johannesburg, 2193, South Africa",
+    "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/johannesburg-south-africa/1280x800/johannesburg-south-africa-temple-lds-375190-wallpaper.jpg",
+    "services": [
+    "Clothing rental available",
+    "No cafeteria available",
+    "No patron housing available",
+    "Distribution center nearby"
+    ],
+    "history": "The Johannesburg South Africa Temple was the first temple built in Africa (and in South Africa). The first convert in South Africa, Henry Stringer, was baptized on June 15, 1853. However, the exodus of the Saints to Utah and government-imposed restrictions on the number of missionaries who could serve greatly hindered the work in South Africa until the 1980s. The announcement came less than 3 years from the revelation of the extension of priesthood regardless of race",
+    "schedule": "All ordinances are available by appointment only. Click the Appointments button below to schedule or modify an appointment.",
+    "closure": [
+    {
+    "year": 2022,
+    "dates": [
+    "Saturday, 9 August 2022",
+    "Friday, 15 April 2022",
+    "Wednesday, 27 April 2022",
+    "Thursday, 16 June 2022"
+    ]
+    }
+    ],
+    "link": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng"
+    },
+    {
+    "id": 4,
+    "name": "Manila Philipines Temple",
+    "email": "manilatemple@thechurchofjesuschrist.org",
+    "phone": "(63) 2-8635-9111",
+    "address": "13 Temple Drive corner Whiteplains Avenue Manila Phillipines",
+    "image": "https://assets.ldscdn.org/f7/ba/f7baa3240bcbf4fa4e6efb3f8bddf2431e8f6f53/manila_philippines_temple_lds.jpeg",
+    "services": [
+        "Clothing rental available",
+        "No cafeteria available",
+        "Patron housing available",
+        "Distribution center nearby"
+    ],
+    "history": "The manila philippines temple was dedicated in 25th september 1984 by prophet Gordon B. Hinckley. It was preceded by sydney Australia temple and followed by Dallas Texas temle. \"The temple site measures about 3.5 acreas91.4 hectares).",
+    "schedule": "All ordinances are available by appointment only. Click the Appointments button below to schedule or modify an appointment.",
+    "closure": [
+    {
+    "year": 2022,
+    "dates": [
+    "Monday, 1 August 2022 - Monday, 15 August 2022",
+    "Saturday, 8 October 2022",
+    "Saturday, 24 December 2022",
+    "Saturday, 31 December 2022"
+    ]
+    }
+    ],
+    "link": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng"
+    }
+    ]
+    }

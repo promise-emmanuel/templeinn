@@ -26,7 +26,7 @@
     <!-- <link rel="stylesheet" href="styles/large.css"> -->
     
     <script type="text/javascript" src="scripts/dateWeather.js" defer></script>
-    <!-- <script type="text/javascript" src="script/localstorage.js" defer></script> -->
+    <script type="text/javascript" src="scripts/temple.js" defer></script>
     <!-- <script type="text/javascript" src="script/lazy_loading.js" defer></script> -->
     <!-- <script type="text/javascript" src="script/directory.js" defer></script> -->
     
@@ -50,16 +50,23 @@
         </section>
     </header>
 
+    <main id="temple_main">
+        <h1>Temples</h1>  
+        <div class="temple_container"></div>
+    
+    </main>
+
+
     <footer>
-        <section>
-            <h2>Temple Inn Services</h2>
+        <section class="first_footer">
+            <h3>Temple Inn Services</h3>
             <ul>
-                <li>Make a reservation</li>
-                <li>kwnfkwenfwoe</li>
-                <li>ejgnjrngerjgnelr</li>
+                <li>Accomodation</li>
+                <li>Laundry</li>
+                <li>Hall & event planning</li>
             </ul>
 
-            <h2>Helpful links</h2>
+            <h3>Helpful links</h3>
             <ul>
                 <li>Contact Us</li>
                 <li>Services</li>
@@ -68,27 +75,27 @@
             </ul>
         </section>
 
-        <section>
-            <h3>
+        <section class="second_footer">
+            <h4>
                 Join Our Community
-                <img src="" alt="facebook link">
-                <img src="" alt="twitter link">
-                <img src="" alt="instagram link">
-                <img src="" alt="youtube link">
+            </h4>
+
+            <a href="https://www.facebook.com" target="_blank"> <img src="https://cdn.glitch.com/78ebbaeb-2da2-43ce-b67b-ab83aa6f722e%2Ffacebook.png?v=1620882319512" alt="facebook icon"> </a>
+            <a href="https://www.twitter.com" target="_blank"> <img src="https://cdn.glitch.com/78ebbaeb-2da2-43ce-b67b-ab83aa6f722e%2Ftwitter.png?v=1620882316034" alt="twitter icon"> </a>
+            <a href="https://www.youtube.com" target="_blank"> <img src="https://cdn.glitch.com/78ebbaeb-2da2-43ce-b67b-ab83aa6f722e%2Fyoutube.png?v=1620882336666" alt="youtube icon"> </a>
                 
-            </h3>
         </section>
 
-        <section>
-            <div class="footer-form">
-                <h3>Contact Us</h3>
+        <section class="third_footer">
+            <div class="footer_form">
                 <form action="./thankyou.html" method="get">
+                    <legend>Contact Us</legend>
                   <label>
                     FULL-NAME <input type="text" name="fullname" required
                   /></label>
                   <label> E-MAIL <input type="email" name="email" required /></label>
                   <label>
-                    YOUR MESSAGE
+                    YOUR MESSAGE:
                     <textarea
                       name="contact-message"
                       cols="30"

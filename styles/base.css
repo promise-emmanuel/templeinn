@@ -3,9 +3,10 @@ body{
     margin: 0; 
 }
 
+/* styling for the header */
 .header{
     /* background-color: rgba(0,0,0,0.9); 10, 2, 0*/
-    background-color: rgb(20, 10, 0);
+    background-color: rgb(40, 10, 0);
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -21,15 +22,6 @@ body{
     /* flex: 1 1 auto; */
     /* position:fixed; */
     z-index: 2;
-}
-
-footer{
-    /* background-color: rgba(0,0,0,0.9); */
-    background-color: rgb(20, 10, 0);
-    display: block;
-    color: white;
-    padding: 5%;
-    margin: 1.5rem 0 0 0;
 }
 
 header img{
@@ -97,6 +89,53 @@ nav ul li.close a{
 #hamburger_btn.open span:nth-child(1) {display:none;}
 #hamburger_btn.open span:nth-child(2) {display:block;}
 
+/* styling for the footer */
+footer{
+    /* background-color: rgba(0,0,0,0.9); */
+    background-color: rgb(40, 10, 0);
+    display: block;
+    color: white;
+    padding: 5%;
+    margin: 1.5rem 0 0 0;
+}
+
+.first_footer ul, .second_footer ul{
+    list-style-type: none;
+    text-align: left;
+    margin-left: -5%;
+}
+.second_footer a img{
+    border-radius: 50px;
+    width: 45px;
+    text-decoration: none;
+}
+
+form legend {
+    margin: 2rem 1.2rem;
+    padding: 0 0.5rem;
+    font-size: 2rem;
+}
+
+form label{
+    display: block;
+    padding-top: 1rem;
+    font-size: 1rem;
+}
+
+form label input, form label textarea {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #e3f6f5;
+    /* border-radius: 25px; */
+    padding: 0.3rem;
+    color: #555;
+    width: 80%;
+    max-width: 20rem;
+    background-color: #e3f6f5;
+}
+
+
+/* styling for the main page in the index page */
 .img_container{
     position: relative;
     margin:0;
@@ -155,9 +194,9 @@ nav ul li.close a{
 }
 
 .reserve_details button{
-    padding: 5%;
-    border-radius: 5%;
     background-color: rgba(20, 10, 0, 0.7);
+    border-radius: 1.5rem;
+    padding: .7rem 1.5rem;
 }
 .reserve_details button a{
     text-decoration: none;
@@ -206,14 +245,238 @@ nav ul li.close a{
     color: rgb(2, 14, 44);
     padding: 1%;
 }
-
-.first_footer ul, .second_footer ul{
-    list-style-type: none;
-    text-align: left;
-    margin-left: -5%;
+.temple_select1 h3{
+    color:white;
 }
 
-.footer_form{
+
+.temple_select1{
+    display:block;
+    text-align:center;
+    margin-left: 3%;
+}
+.temple_select1 picture img{
+    float:right;
+    border: 5px solid white;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 45%;
+}
+
+.temple{
+    display:block;
+    text-align: center;
+    clear:both;
+    margin-top:20%;
+    margin-left:5%;
+    margin-right: 5%;
+    line-height: 1.5rem;
+}
+.temples_btn{
+    border-radius: 1.5rem;
+    padding: .7rem 1.5rem;
+    background-color: rgb(20,10,0);
+}
+.temples_btn a{
+    color:white;
+    text-decoration: none;
+    font-size: 1.2rem;;
+}
+.footer-form-button{
+    margin-top: 5%;
+    padding:2%;
+    font-size: 1rem;
+    background-color: rgb(20,10,0);
+    color:white;
+    margin-top:2rem;
+}
+
+/* styling for the main page of the temples. html */
+
+#temple_main{
+    background: linear-gradient(rgb(130, 78, 10), white);
+    padding: 5%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 40px
+}
+#temple_main h1{
+    margin-bottom: 20%;
+    color:white;
+}
+
+.temple_card{
+    border: 1px solid rgb(40, 10, 0);
+    background: linear-gradient( rgba(255,255,255,0.9), rgba(220, 159, 85, 0.9), rgba(255,255,255,0.9));
+    margin-bottom: 10%; 
+    color: rgb(2, 14, 44);
+    box-shadow: 3px white;
+    padding: 2%;
+}
+
+.intro button{
+    padding: 5%;
+    border-radius: 50% 5%;
+    box-shadow: 5px gray;
+}
+.intro button a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color:black;
+
+}
+
+.intro picture img{
+    width: 90%;
+    max-width: 400px;
+    border: 5px solid rgb(255,255, 255, 0.1);
+    margin-bottom: 5%; 
+}
+
+/* styling for the reservation page of the website */
+.reservation_main{
+    background: linear-gradient(rgb(130, 78, 10), white);
+    padding:5%;
+}
+
+.reservation_main h1{
+    margin-bottom: 25%;
+    color:white
+}
+form{
     display: block;
-    /* grid-template-columns: 1fr; */
+}
+
+form.reservation_form label input{
+    padding: 2% 2%;
+    margin-top: .2rem;
+    max-width: 20rem;
+    width: 90%;
+    /* width: 500px; */
+}
+form label{
+    font-size: 1.3rem;
+    margin-top: 4%;
+}
+form.reservation_form label select{
+    padding: 3% 2%;
+}
+.form_temple_list option{
+    font-size: 1rem;
+}
+
+.reservation_form_container{
+    background: linear-gradient(rgb(130, 78, 10), white);
+    box-shadow: 3px 3px 3px 3px white;
+    padding: 25% 8%;    
+}
+.reservation_form_container h3{
+    text-align: center;
+    font-size: 2rem;
+    color:white
+}
+
+.reservation_button{
+    border: none;
+    /* background-color: #6c4e0b ; */
+    background-color: rgb(50,10,0);
+    color: white;
+    border-radius: 1.5rem;
+    padding: .7rem 1.5rem;
+    margin: 20% 0 15% 2%;
+    width: 96%;
+    max-width: 20rem;
+    cursor: pointer; 
+    font-size: 1.2em;
+}
+.hy{
+    color:red;
+}
+
+form label input:required {
+    border-left: solid 6px red;  
+}
+
+  
+form label input:required:valid {
+    border-bottom: solid 4px green;
+    border-left:none;
+}
+
+/* style for the service page */
+
+main#service_main{
+    background: linear-gradient(rgb(130, 78, 10), white);
+    padding:5%;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.amenity, .special_amenity, .reception_amenity, .reception_station{
+    color:white;
+}
+.white{
+    color:white;
+}
+
+.edit{
+    margin-bottom: 20%;
+}
+.black{
+    margin-top: 20%;
+}
+.reservation_room img{
+    width: 80%;
+    height: 250px;
+    max-width: 400px;
+}
+.contact_container{
+    background: linear-gradient(rgb(130, 78, 10), white);
+    margin-top: 25%;
+    padding: 15%;
+    text-align: center;
+}
+.contact_container button{
+    border: none;
+    /* background-color: #6c4e0b ; */
+    background-color: rgb(50,10,0);
+
+    border-radius: 1.5rem;
+    padding: .7rem 1.5rem;
+    margin: 20% 0 15% 2%;
+    width: 96%;
+    max-width: 20rem;
+    cursor: pointer; 
+    font-size: 1.2em;
+}
+.contact_container button a{
+    text-decoration: none;
+    color: white;
+}
+
+/* style for the contact page */
+main.contact{
+    background: linear-gradient(rgb(130, 78, 10), white);
+    padding:5%
+}
+
+.iframe, .italic, form legend{
+    color:white;
+    text-align:center;
+}
+.submitBtn{
+    border: none;
+    /* background-color: #6c4e0b ; */
+    background-color: rgb(50,10,0);
+    color: white;
+    border-radius: 1.5rem;
+    padding: .7rem 1.5rem;
+    margin: 10% 0 10% 2%;
+    width: 96%;
+    max-width: 20rem;
+    cursor: pointer; 
+    font-size: 1.2em;
 }

@@ -50,16 +50,80 @@
         </section>
     </header>
 
+    <main class="contact">
+        <h1>Contact</h1>
+        <div class="iframe">
+            <h2>Contact Us</h2>
+            <h3>Maps</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.546469585883!2d5.616026714266037!3d6.323141927215558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1040d3a4d7e4cac9%3A0x9bcd380595cf1287!2sReservation%20Rd%2C%20Oka%20300102%2C%20Benin%20City!5e0!3m2!1sen!2sng!4v1657147305854!5m2!1sen!2sng" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe>
+        </div>
+
+        <div class="italic">
+            <h3>Send us your questions or comments using the form below. We will respond promptly to your inquiry.</h3>
+        </div>
+
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Contact Information</legend>
+                    <h5><span class="hy">*</span>Required field</h5>
+                    <label class="input">First Name<span class="hy">*</span>
+                        <input type="text" name="firstname" required placeholder="Enter your first name" pattern="[A-Za-z - ]{2,}">
+                    </label>
+                    
+                    <label class="input">Last Name<span class="hy">*</span>
+                        <input type="text" name="lastname" required placeholder="Enter your last name" pattern="[A-Za-z - ]{2,}">
+                    </label>
+                    <label class="input">Company Name:
+                        <input type="text" name="business" pattern="[A-Za-z - ]{7,}">
+                    </label>
+                    <label class="input">Email<span class="hy">*</span>
+                        <input type="email" name="email" required placeholder="email@email.com">
+                    </label>
+                    <label class="input">Phone<span class="hy">*</span>
+                        <input type="tel" name="phone" required placeholder="123-456-7890" pattern="[0-9-+]{2,}">
+                    </label>
+                    <div class="contact_label">
+                        <p>Are you a temple worker?</p>
+                        <label  class="radio_2"><input type="radio" name="membership" value="yes">Yes<br></label>
+                        <label  class="radio_2"><input type="radio" name="membership" value="no"> No<br></label>
+                    </div>
+
+                    <label class="contact_description">comments/question:
+                        <textarea id="txtid" name="Business Description" rows="10" cols="40" maxlength="500"></textarea>
+                    </label>
+            </fieldset>
+            <input type="hidden" id="date" name="date" value="CurrentTime">
+            <input type="hidden" id="time" name="time" value="CurrentTime">
+            <input type="submit" value="Send Message" class="submitBtn">
+        </form>
+        
+        <!-- <div class="visit">                        -->
+            <!-- <p>#234 Reservation road, GRA, benin-city.<br> -->
+            <!-- website: edobest.ng<br> -->
+            <!-- <p>📞 +234 701345612</p> -->
+
+            <!-- <p>Monday - Thursday: 9:00 a.m to 4:30p.m.<br> -->
+            <!-- Friday: By Appointment Only</p> -->
+
+            <!-- <h2>Point of Contact</h2> -->
+            <!-- <p>Promise N. Igbojionu<br>President & CEO | promiseemmanuel@byui.edu</p> -->
+            <!-- <p>Kindness Osoh<br> Director | osohk@gmail.com</p> -->
+            <!-- <p>Okoko Aliu (JK)<br> Operations Assistant | kelvincute@gmail.com</p>                           -->
+        <!-- </div> -->
+    </main>
+
+
+
     <footer>
-        <section>
-            <h2>Temple Inn Services</h2>
+        <section class="first_footer">
+            <h3>Temple Inn Services</h3>
             <ul>
-                <li>Make a reservation</li>
-                <li>kwnfkwenfwoe</li>
-                <li>ejgnjrngerjgnelr</li>
+                <li>Accomodation</li>
+                <li>Laundry</li>
+                <li>Hall & event planning</li>
             </ul>
 
-            <h2>Helpful links</h2>
+            <h3>Helpful links</h3>
             <ul>
                 <li>Contact Us</li>
                 <li>Services</li>
@@ -68,27 +132,27 @@
             </ul>
         </section>
 
-        <section>
-            <h3>
+        <section class="second_footer">
+            <h4>
                 Join Our Community
-                <img src="" alt="facebook link">
-                <img src="" alt="twitter link">
-                <img src="" alt="instagram link">
-                <img src="" alt="youtube link">
+            </h4>
+
+            <a href="https://www.facebook.com" target="_blank"> <img src="https://cdn.glitch.com/78ebbaeb-2da2-43ce-b67b-ab83aa6f722e%2Ffacebook.png?v=1620882319512" alt="facebook icon"> </a>
+            <a href="https://www.twitter.com" target="_blank"> <img src="https://cdn.glitch.com/78ebbaeb-2da2-43ce-b67b-ab83aa6f722e%2Ftwitter.png?v=1620882316034" alt="twitter icon"> </a>
+            <a href="https://www.youtube.com" target="_blank"> <img src="https://cdn.glitch.com/78ebbaeb-2da2-43ce-b67b-ab83aa6f722e%2Fyoutube.png?v=1620882336666" alt="youtube icon"> </a>
                 
-            </h3>
         </section>
 
-        <section>
-            <div class="footer-form">
-                <h3>Contact Us</h3>
+        <section class="third_footer">
+            <div class="footer_form">
                 <form action="./thankyou.html" method="get">
+                    <legend>Contact Us</legend>
                   <label>
                     FULL-NAME <input type="text" name="fullname" required
                   /></label>
                   <label> E-MAIL <input type="email" name="email" required /></label>
                   <label>
-                    YOUR MESSAGE
+                    YOUR MESSAGE:
                     <textarea
                       name="contact-message"
                       cols="30"

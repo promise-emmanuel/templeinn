@@ -49,17 +49,95 @@
             </nav>
         </section>
     </header>
+        <main>
+            <div class="reservation_main">
+                <h1>Reservation</h1>
+        
+                    <div class="reservation_form_container">
+                        <h3>Reservation Form</h3>
+                        <form class="reservation_form" action="thankyou.html" method="get">
+                        <label>
+                            First Name<span class="hy">*</span> 
+                            <input
+                            type="text"
+                            name="firstname"
+                            pattern="^[A-Za-z -]{1,}$"
+                            required
+                            placeholder="Enter your first name"
+                        /></label>
+                        <label>
+                            Last Name<span class="hy">*</span>
+                            <input
+                            type="text"
+                            name="lastname"
+                            pattern="^[A-Za-z -]{1,}$"
+                            required
+                            placeholder="Enter your last name"
+                        /></label>
+                        <label> E-mail<span class="hy">*</span> <input type="email" name="email" required placeholder="email@gmail.com"/></label>
+                        <label>
+                            Phone Number:
+                            <input type="tel" name="telephone" placeholder="123-456-7890" pattern="^[0-9]{5,}$" required
+                        /></label>
+                        <label>
+                            Home Town <span class="hy">*</span>
+                            <input
+                            type="text"
+                            name="hometown"
+                            pattern="^[A-Za-z -]{1,}$"
+                            required placeholder="e.g abuja"
+                        /></label>
+                        <label>
+                            Temple Location<span class="hy">*</span>
+                            <select class="form_temple_list" name="temples">
+                            <option value="aba">--</option>
+                            <option value="aba">Aba</option>
+                            <option value="accra">Accra</option>
+                            <option value="johannesburg">Johannesburg</option>
+                            <option value="curitiba">Manila</option>
+                            </select></label
+                        >
+                        <label>Date<span class="hy">*</span> <input type="date" name="date" required /></label>
+                        <label>
+                            Type of Room<span class="hy">*</span>
+                            <select class="form_temple_list" name="rooms">
+                                <option value="none">--</option>
+                                <option value="single">Single</option>
+                                <option value="double">Double</option>
+                                <option value="quad">Quad</option>
+                                <option value="Deluxe">Deluxe</option>
+                                <option value="king">King</option>
+                            </select></label
+                        >
+                        <label>
+                            Number Of Rooms<span class="hy">*</span>
+                            <input type="number" value="1" name="roomnumbers" required
+                        /></label>
+            
+                        <label>Comments:
+                            <textarea name="reservationcomment" placeholder="special requests" cols="30" rows="5"></textarea>
+                        </label>
+                        <input
+                            class="reservation_button"
+                            type="submit"
+                            value="Make Reservation"
+                        />
+                        </form>
+                </div>
+                </div>
+        </main>
+
 
     <footer>
-        <section>
-            <h2>Temple Inn Services</h2>
+        <section class="first_footer">
+            <h3>Temple Inn Services</h3>
             <ul>
-                <li>Make a reservation</li>
-                <li>kwnfkwenfwoe</li>
-                <li>ejgnjrngerjgnelr</li>
+                <li>Accomodation</li>
+                <li>Laundry</li>
+                <li>Hall & event planning</li>
             </ul>
 
-            <h2>Helpful links</h2>
+            <h3>Helpful links</h3>
             <ul>
                 <li>Contact Us</li>
                 <li>Services</li>
@@ -68,27 +146,27 @@
             </ul>
         </section>
 
-        <section>
-            <h3>
+        <section class="second_footer">
+            <h4>
                 Join Our Community
-                <img src="" alt="facebook link">
-                <img src="" alt="twitter link">
-                <img src="" alt="instagram link">
-                <img src="" alt="youtube link">
+            </h4>
+
+            <a href="https://www.facebook.com" target="_blank"> <img src="https://cdn.glitch.com/78ebbaeb-2da2-43ce-b67b-ab83aa6f722e%2Ffacebook.png?v=1620882319512" alt="facebook icon"> </a>
+            <a href="https://www.twitter.com" target="_blank"> <img src="https://cdn.glitch.com/78ebbaeb-2da2-43ce-b67b-ab83aa6f722e%2Ftwitter.png?v=1620882316034" alt="twitter icon"> </a>
+            <a href="https://www.youtube.com" target="_blank"> <img src="https://cdn.glitch.com/78ebbaeb-2da2-43ce-b67b-ab83aa6f722e%2Fyoutube.png?v=1620882336666" alt="youtube icon"> </a>
                 
-            </h3>
         </section>
 
-        <section>
-            <div class="footer-form">
-                <h3>Contact Us</h3>
+        <section class="third_footer">
+            <div class="footer_form">
                 <form action="./thankyou.html" method="get">
+                    <legend>Contact Us</legend>
                   <label>
                     FULL-NAME <input type="text" name="fullname" required
                   /></label>
                   <label> E-MAIL <input type="email" name="email" required /></label>
                   <label>
-                    YOUR MESSAGE
+                    YOUR MESSAGE:
                     <textarea
                       name="contact-message"
                       cols="30"
