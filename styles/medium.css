@@ -1,0 +1,23 @@
+@media only screen and (min-width:35em){
+
+    nav ul.open{ 
+        display: flex;
+        justify-content: space-between;
+        max-width: 100%;
+        width:100%;
+        text-align:center;
+        margin-right: 1rem;       
+    }
+
+    nav ul li a {
+        border:none;
+        
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+}
