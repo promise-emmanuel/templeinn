@@ -86,4 +86,8 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    .temple_select1 picture img{
+        width: 25%;
+    }
+
 }
