@@ -1,3 +1,4 @@
+console.log("it worked")
 const templeURL = "../data/temple.json"
 
 fetch(templeURL)
